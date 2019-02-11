@@ -1,0 +1,83 @@
+
+/* General Selectors */
+
+* {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navigation Bar */
+
+.active .form-inline {
+  color: #399bd1;
+}
+
+.form-inline li {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.navbar-nav li a {
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: blue;
+}
+
+
+
+/* Jumbotron Bike */
+
+.jumbotron-bike {
+  background-image: url(../imgs/jumbotron-bike.jpg);
+  text-align: center;
+}
+
+.jumbotron-bike .container {
+  width: 51.3rem;
+}
+
+.jumbotron-bike .container h1 {
+  font-family: "Monoton",sans-serif;
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000;
+  margin-top: 11.85rem;
+}
+
+.jumbotron-bike .container p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.jumbotron-bike a {
+  margin-top: 2.8rem;
+  width: 11.4rem;
+  padding: 1.3rem 0 1.3rem 0;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+ }
+
+.jumbotron-bike a:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.jumbotron-bike a:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Featured Project Section */
+.featured-project h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  margin-bottom: 20px;
+}
+
