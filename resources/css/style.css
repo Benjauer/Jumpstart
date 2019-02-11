@@ -77,7 +77,45 @@
 .featured-project h2 {
   font-size: 1.7rem;
   font-weight: bold;
-  color: #399bd1;
   margin-bottom: 20px;
 }
 
+.image-container {
+  padding: 0;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.image-container ul {
+  font-size: 0.75rem;
+}
+
+.blue-heading {
+  color: #399bd1;
+}
+
+/* Projects Section class 'projects' */
+
+.projects {
+  padding: 0;
+}
+
+.projects h2 {
+  margin: 0 0 2rem 0;
+}
+
+.project-item h4 {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.project-item p {
+  width: 100%;
+}
+
+.project-item img {
+  width: 100%;
+  opacity: 0.8;
+}
