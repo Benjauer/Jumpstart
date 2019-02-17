@@ -30,6 +30,19 @@
   color: blue;
 }
 
+/* Media Query mobile phones 768px */
+
+@media only screen and (max-width: 768px) {
+ .navbar-brand img {
+   display: none;
+ }
+
+
+}
+
+
+
+
 
 
 /* Jumbotron Bike */
@@ -118,4 +131,27 @@
 .project-item img {
   width: 100%;
   opacity: 0.8;
+}
+
+/* Footer */
+
+footer {
+
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+}
+
+.container-footer {
+  text-align: center;
+}
+
+.container-footer h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.container-footer p {
+  width: 42rem;
+
 }
